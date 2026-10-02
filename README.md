@@ -6,7 +6,7 @@ Fork connects Claude to sandboxes that your Fork account is authorized to use. Y
 
 Install the plugin in Claude and open its **Connectors** tab. Connect **Fork**, then sign in to your Fork account and approve the requested read, write, and browser-preview permissions. You need a Fork account with access to at least one sandbox. Each person connects their own account through OAuth; this package contains no credentials.
 
-The remote connector is `https://agent.fork.site/mcp/public`. Its tools operate on authorized Fork sandboxes, and may send sandbox identifiers, file paths and contents, edit requests, and website-preview results between Claude and Fork. File edits change the selected sandbox. The plugin contains no local server, executable, hook, or background process. It does not give Fork access to files on your own computer.
+The remote connector is `https://agent.fork.site/mcp/public`. Its tools operate on authorized Fork sandboxes, and may send your Fork account identifier and email, sandbox identifiers and hostnames, file paths and contents, edit requests, and website-preview results between Claude and Fork. File edits change the selected sandbox. The plugin contains no local server, executable, hook, or background process. It does not give Fork access to files on your own computer.
 
 ## Try it
 
