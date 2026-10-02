@@ -1,0 +1,19 @@
+{
+  "name": "fork",
+  "displayName": "Fork",
+  "version": "1.0.0",
+  "description": "Inspect and edit your authorized Fork sandboxes and preview their websites.",
+  "author": {
+    "name": "Pickaxe",
+    "url": "https://pickaxe.co/"
+  },
+  "homepage": "https://fork.site/",
+  "repository": "https://github.com/pickaxeproject/fork-claude-plugin",
+  "license": "LicenseRef-Pickaxe-Proprietary",
+  "icon": "./assets/fork-icon.png",
+  "documentationUrl": "https://github.com/pickaxeproject/fork-claude-plugin#readme",
+  "supportUrl": "https://fork.site/support",
+  "privacyPolicyUrl": "https://fork.site/privacy",
+  "termsOfServiceUrl": "https://fork.site/terms",
+  "keywords": ["fork", "sandbox", "website", "code"]
+}
